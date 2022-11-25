@@ -1,0 +1,78 @@
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.buttons {
+    margin: 50px auto;
+    height: 200px;
+    border-radius: 20px;
+    background: #4f4f4f;
+    font-family: Arial;
+    padding: 30px;
+    display: grid;
+    grid-template:
+    "Rock Scisors Paper"
+    "Output Output1 Output2";
+    grid-gap: 7px;
+    justify-items: center;
+}
+
+.Output {
+    margin-top: 30px;
+    background: #6c6b6b;
+    border-radius: 30px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+.Output1 {
+    margin-top: 30px;
+    background: #6c6b6b;
+    border-radius: 30px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+.Output2 {
+    margin-top: 30px;
+    background: #6c6b6b;
+    border-radius: 30px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+.Output p {
+    margin: 0;
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.btn:active {
+    filter: brightness(90%);
+}
+
